@@ -105,7 +105,7 @@ ul { list-style: none; }
     background-size: cover;      
     background-position: center; 
     background-repeat: no-repeat;
-    background-image: url('img/Back2.png');
+    background-image: url('../img/Back2.png');
     display: flex;
     align-items: center;
     justify-content: center;
@@ -209,9 +209,9 @@ ul { list-style: none; }
     background-repeat: no-repeat;
  }
 /* Gradientes oscuros y serios */
-.p-one { background-image: url('img/ActivosSys\ \(2\).png'); }
-.p-two { background-image: url('img/Game.png'); }
-.p-three { background-image: url('imagenes/proyecto3.jpg'); }
+.p-one { background-image: url('../img/ActivosSys\ \(2\).png'); }
+.p-two { background-image: url('../img/Game.png'); }
+.p-three { background-image: url('../imagenes/proyecto3.jpg'); }
 
 .project-info { padding: 2rem; }
 .project-info .category { font-size: 0.75rem; text-transform: uppercase; color: #94a3b8; letter-spacing: 1.5px; }
@@ -233,9 +233,9 @@ ul { list-style: none; }
     background-color: #ddd;      
 }
 
-.profile-picP { background-image: url('img/Pedro.webp'); }
-.profile-picB { background-image: url('img/Brayan.png'); }
-.profile-picZ { background-image: url('img/Zabdiel.webp'); }
+.profile-picP { background-image: url('../img/Pedro.webp'); }
+.profile-picB { background-image: url('../img/Brayan.png'); }
+.profile-picZ { background-image: url('../img/Zabdiel.webp'); }
 
 .team-card .position { 
     display: block;
@@ -381,3 +381,4 @@ footer { background-color: white; padding: 1rem 0; text-align: center; border-to
 }
 
 .hamburger { display: none; }
+
